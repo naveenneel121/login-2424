@@ -1,9 +1,10 @@
+# Replicaset Template
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: nginx
-
 spec:
+  # 1 Pod should exist at all times.
   replicas: 1
   selector:
     matchLabels:
@@ -12,10 +13,9 @@ spec:
     metadata:
       labels:
         app: nginx
-    
     spec:
-      containets:
+      containers:
       - name: nginx
         image: nginx
         ports:
-        - containerPorts: 80
+        - containerPort: 80

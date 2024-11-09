@@ -6,5 +6,5 @@ metadata:
     env:dev
 spec:
   containers:
-    -name: nginx-app
-     image: nginx
+  - name: nginx-app
+    image: nginx

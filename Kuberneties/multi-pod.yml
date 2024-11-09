@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: nginx-app
+
+spec:
+  containets:
+  - name: nginx-app
+    image: nginx:latest
+    ports:
+    - containerPort: 80
+
+  - name: node-api
+    image: ravi2krishna/nodejs-api
+    ports:
+    - containerPort: 8080

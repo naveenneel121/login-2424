@@ -4,7 +4,7 @@ metadata:
   name: nginx-app
 
 spec:
-  containets:
+  containers:
   - name: nginx-app
     image: nginx:latest
     ports:

@@ -11,6 +11,6 @@ spec:
     - containerPort: 80
 
   - name: node-api
-    image: ravi2krishna/nodejs-api
+    image: naveenneel12o/lms-frontend
     ports:
     - containerPort: 8080

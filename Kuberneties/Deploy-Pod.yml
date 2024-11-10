@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: naveenneel12o/lms-frontend:35
         ports:
         - containerPort: 80

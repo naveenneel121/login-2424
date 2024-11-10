@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ravi2krishna/ecomm
+        image: ravi2krishna/login-2430
         ports:
         - containerPort: 80
